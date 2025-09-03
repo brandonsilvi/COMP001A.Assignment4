@@ -91,3 +91,7 @@ p {
     background-color: rgba(179, 178, 178, 0.6);
     padding: 10px 20px;
 }
+#video1, #video2, #video3 {
+    text-align: center;
+    margin: 20px 0;
+}
