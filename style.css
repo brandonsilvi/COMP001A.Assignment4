@@ -1,0 +1,93 @@
+body.home {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(media/security.jpg); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+body.about {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(media/privacy.jpg); 
+    background-size: cover;       
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+body.careers {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(media/bitcoin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+body.contact {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(media/network.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(0, 0, 0);
+}
+body.services {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(media/screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(179, 178, 178, 0.6);
+    padding: 10px 20px;
+}
+
+header, footer {
+    background-color: rgba(179, 178, 178, 0.6);
+    padding: 10px 20px;
+}
+
+h1, h2, p {
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: rgba(179, 178, 178, 0.6);
+    border: 5px solid rgba(0, 0, 0, 0.1);
+}
+p {
+    background-color: rgba(179, 178, 178, 0.6);
+    padding: 10px 20px;
+}
