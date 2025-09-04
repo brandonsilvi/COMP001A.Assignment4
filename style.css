@@ -41,7 +41,7 @@ body.contact {
 body.services {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(images/screen.jpg);
+    background-image: url(images/computer.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -50,23 +50,21 @@ body.services {
 }
 
 header, footer {
-    background-color: rgba(179, 178, 178, 0.6);
     padding: 10px 20px;
 }
-
-h1, h2, p {
-    text-align: center;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    padding: 0;
     margin: 0;
 }
+.navbar {
+    background-color: rgba(179, 178, 178, 0.6);
+    background-size: cover;
+    max-width: fit-content;
+    padding: 20px;
 
+}
 nav ul li {
     margin: 0 15px;
 }
@@ -81,15 +79,26 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-    background-color: rgba(179, 178, 178, 0.6);
-    border: 5px solid rgba(0, 0, 0, 0.1);
+width: 100%;      
+max-width: 100%;    
+border-collapse: collapse;
+margin: 20px auto;  
+background-color: rgba(179, 178, 178, 0.6);
+border: 5px solid rgba(0, 0, 0, 0.831);
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px 12px;
+    text-align: left;
 }
 p {
     background-color: rgba(179, 178, 178, 0.6);
-    padding: 10px 20px;
+    padding: 8px 12px;
 }
 #video1, #video2, #video3 {
     text-align: center;
