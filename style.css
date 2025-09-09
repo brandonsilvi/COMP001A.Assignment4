@@ -21,7 +21,7 @@ body.about {
 body.careers {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(images/bitcoin.jpg);
+    background-image: url(images/network.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,7 +41,7 @@ body.contact {
 body.services {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(images/computer.jpg);
+    background-image: url(images/security.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
